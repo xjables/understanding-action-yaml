@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: .github/actions/main-action
+      - uses: ./.github/actions/main-action
         with:
           DATA: 'Why do I see this under INPUT_DATA within the container?'
           QUERY: 'If the with parameter is creating the input vars whether or not they are in the action.yaml,'
