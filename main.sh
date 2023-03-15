@@ -1,1 +1,1 @@
-env | grep INPUT
+env
