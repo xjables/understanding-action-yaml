@@ -1,3 +1,14 @@
+name: understanding-action-yaml
+description: "Just trying to figure this out."
+
+inputs:
+  DATA:
+    description: data
+  QUERY:
+    description: query
+  QUERY_CONT: 
+    description: query-cont
+
 runs:
   using: docker
   image: alpine:latest
